@@ -1,0 +1,27 @@
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data Handling
+pandas
+numpy
+pillow
+opencv-python
+scikit-learn
+imbalanced-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Backend
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Jupyter
+jupyter
+ipykernel
+
+# Progress Bars (for training)
+tqdm

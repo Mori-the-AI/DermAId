@@ -1,0 +1,36 @@
+# Dataset - too large for GitHub
+data/*.jpg
+data/*.jpeg
+data/*.png
+data/*.csv
+data/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.venv/
+
+# Models - large binary files
+models/*.pth
+models/*.pt
+
+# Node
+frontend/node_modules/
+mobile/node_modules/
+
+# Expo
+mobile/.expo/
+mobile/dist/
+
+# Build outputs
+*.apk
+*.aab
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Keep folder structure
+!data/.gitkeep
+!models/.gitkeep
